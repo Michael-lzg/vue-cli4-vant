@@ -592,7 +592,7 @@ this.$dialog({
 | name    | params | description  |
 | ------- | ------ | ------------ |
 | confirm | null   | 选择后的回调 |
-| cancel  | ull    | 取消后的回调 |
+| cancel  | null    | 取消后的回调 |
 
 ## webpack 可视化分析
 
