@@ -5,9 +5,8 @@ const ToastConstructor = Vue.extend(Main)
 
 let instance
 const toast = function (options) {
-  options = options || {}
   instance = new ToastConstructor({
-    data: options
+    data: options || {}
   })
   instance.vm = instance.$mount()
   document.body.appendChild(instance.vm.$el)
