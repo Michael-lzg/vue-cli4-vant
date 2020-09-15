@@ -256,7 +256,7 @@ Vue.use(utils)
 
 #### 路由懒加载配置
 
-Vue 项目中实现路由按需加载（路由懒加载）的 3 中方式：
+Vue 项目中实现路由按需加载（路由懒加载）的 3 种方式：
 
 ```js
 // 1、Vue异步组件技术：
@@ -448,7 +448,7 @@ package.json 里的 scripts 不同环境的打包命令
 vue-cli3 开始，新建的脚手架都需要我们在 vue.config.js 配置我们项目的东西。主要包括
 
 - 打包后文件输出位置
-- 关闭生产环境 souecemap
+- 关闭生产环境 sourcemap
 - 配置 rem 转化 px
 - 配置 alias 别名
 - 去除生产环境 console
@@ -592,7 +592,7 @@ this.$dialog({
 | name    | params | description  |
 | ------- | ------ | ------------ |
 | confirm | null   | 选择后的回调 |
-| cancel  | ull    | 取消后的回调 |
+| cancel  | null    | 取消后的回调 |
 
 ## webpack 可视化分析
 
@@ -755,7 +755,7 @@ configureWebpack: (config) => {
 svg 优点：
 
 - 图标易于实时修改，可以带动画
-- 可以使用标砖的 prop 和默认值来将图标保持在一个典型的尺寸并随时按需改变他们
+- 可以使用标准的 prop 和默认值来将图标保持在一个典型的尺寸并随时按需改变他们
 - 图标是内联的，所以不需要额外的 HTTP 请求
 - 可以动态地使得图标可访问
 
