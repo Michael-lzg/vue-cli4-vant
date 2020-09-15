@@ -715,8 +715,8 @@ export default new Vue({
   },
   template: `
     <div>
-      <Skeleton1 id="skeleton1" style="display:none"/>
-      <Skeleton2 id="skeleton2" style="display:none"/>
+      <skeleton1 id="skeleton1" style="display:none"/>
+      <skeleton2 id="skeleton2" style="display:none"/>
     </div>
   `,
 })
