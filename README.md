@@ -448,7 +448,7 @@ package.json 里的 scripts 不同环境的打包命令
 vue-cli3 开始，新建的脚手架都需要我们在 vue.config.js 配置我们项目的东西。主要包括
 
 - 打包后文件输出位置
-- 关闭生产环境 souecemap
+- 关闭生产环境 sourcemap
 - 配置 rem 转化 px
 - 配置 alias 别名
 - 去除生产环境 console
