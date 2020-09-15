@@ -715,8 +715,8 @@ export default new Vue({
   },
   template: `
     <div>
-      <skeleton1 id="skeleton1" style="display:none"/>
-      <skeleton2 id="skeleton2" style="display:none"/>
+      <Skeleton1 id="skeleton1" style="display:none"/>
+      <Skeleton2 id="skeleton2" style="display:none"/>
     </div>
   `,
 })
@@ -755,7 +755,7 @@ configureWebpack: (config) => {
 svg 优点：
 
 - 图标易于实时修改，可以带动画
-- 可以使用标砖的 prop 和默认值来将图标保持在一个典型的尺寸并随时按需改变他们
+- 可以使用标准的 prop 和默认值来将图标保持在一个典型的尺寸并随时按需改变他们
 - 图标是内联的，所以不需要额外的 HTTP 请求
 - 可以动态地使得图标可访问
 
