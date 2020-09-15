@@ -54,7 +54,7 @@ export default {
     }
   },
   mounted () {
-    this.maxLength = this.length ? this.length : 20
+    this.maxLength = this.length ||  20
   }
 }
 /*  使用例子 只有type = input 时是有输入框的
